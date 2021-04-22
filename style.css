@@ -1,0 +1,44 @@
+body, html {
+    background: #333;
+    color:#fff;
+}
+
+.description__text {
+    padding: 20px;
+}
+
+.description__btn {
+    background: none;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.description__btn:hover {
+    background-color: #fff;
+    color: #333;
+    border: none;
+}
+
+.description__btn:disabled {
+    display: none;
+}
+
+
+.result {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 20px;
+}
+
+.result__column {
+    border: 2px solid white;
+    padding: 20px;
+    line-height: 1.5rem;
+    list-style-type: none;
+}
